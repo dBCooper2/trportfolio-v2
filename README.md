@@ -1,10 +1,20 @@
 # nextjs-portfolio-site: Sample Professional Portfolio
 
-A Professional Portfolio built with NextJS and deployed using Vercel.
+A Professional Portfolio Template built with NextJS and deployed using Vercel.
+
+vvvv Guide to Customizing the Site for Yourself is Below! vvvv
 
 ## Functionality
 
-This website is meant to be taken and deployed by you, the reader, without needing a subscription to any no-code tools like Wix, Weebly, etc., and an easy project to dip your toes into NextJS, Tailwind and Vercel without needing to build something huge.
+This website is meant to be taken and deployed by you, the reader, without needing a subscription to no-code tools like Wix, Weebly, etc., and an easy project to dip your toes into NextJS, Tailwind and Vercel without needing to build something huge.
+
+The site provides you with a simple template for a professional portfolio, based on Brittany Chiang's [v5 portfolio](https://brittanychiang.com/):
+
+![img1](https://github.com/dBCooper2/nextjs-portfolio-site/blob/main/_docs/website_1.png?raw=true)
+
+The homepage has a resume section with clickable skills that takes you to a page with dynamic routing that filters the projects based on the skills you select:
+
+![img2](https://github.com/dBCooper2/nextjs-portfolio-site/blob/main/_docs/website_2.png?raw=true)
 
 ## Site Customization: Resume Content
 
@@ -43,7 +53,7 @@ The following files need to be edited to contain your info, and can be found in 
 
 - Research (`Research.md`): If you have been involved in research (I have not), this is where you can add any relevant research you have been involved in. To add this to the deployed website, make sure you un-comment the HTML and JavaScript needed to display this category in `src/app/page.tsx`.
 
-- Footer (`Footer.md`): This is just some notes saying I made the site and what it was made with. You can either edit this or remove it, crediting me isn't important. If the file is blank nothing will render and no errors will be thrown, so you can just delete everything in here.
+- Footer (`Footer.md`): This is just some notes saying I made the site and what it was made with. You can either edit this or remove it, crediting me isn't important. If the file is blank nothing will render and no errors will be thrown, so you can just delete everything in here if you want.
 
 A file is contained in the `/src/content/` directory named `MarkdownGuide.md` that you can look at for a cheat sheet to customize the markdown files if you need to add anything extra.
 
