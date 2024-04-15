@@ -1,0 +1,23 @@
+{
+    "1" : {
+        "title": "Project 1",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget faucibus lectus. Maecenas laoreet diam sit amet metus feugiat, eget posuere nisl dictum.",
+        "skills": ["Skill-1", "Skill-2", "Skill-3"],
+        "code": "https://github.com/dBCooper2/",
+        "demo": "https://trevor-rowland.vercel.app"
+    },
+    "2" : {
+        "title": "Project 2",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget faucibus lectus. Maecenas laoreet diam sit amet metus feugiat, eget posuere nisl dictum.",
+        "skills": ["Skill-1", "Skill-4"],
+        "code": "https://github.com/dBCooper2/",
+        "demo": ""
+    },
+    "3" : {
+        "title": "Project 3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget faucibus lectus. Maecenas laoreet diam sit amet metus feugiat, eget posuere nisl dictum.",
+        "skills": ["Skill-1", "Skill-2", "Skill-3", "Skill-4"],
+        "code": "https://github.com/dBCooper2/",
+        "demo": "https://dbcooper.vercel.app"
+    }
+}
