@@ -1,22 +1,70 @@
 [
-    {
-        "text":"Skill-1",
-        "color":"#A9A9A9"
-    },
-    {
-        "text":"Skill-2",
-        "color":"#A9A9A9"
-    },
-    {
-        "text":"Skill-3",
-        "color":"#A9A9A9"
-    },
-    {
-        "text":"Skill-4",
-        "color":"#A9A9A9"
-    },
-    {
-        "text":"Skill-5",
-        "color":"#A9A9A9"
-    }
+  {
+    "text": "Python",
+    "color": "#647bc4"
+  },
+  {
+    "text": "Pandas",
+    "color": "#0036D8"
+  },
+  {
+    "text": "Jupyter-Notebooks",
+    "color": "#172e78"
+  },
+  {
+    "text": "Technical-Writing",
+    "color": "#6D6D6D"
+  },
+  {
+    "text": "CAPM",
+    "color": "#415f42"
+  },
+  {
+    "text": "Fama-French",
+    "color": "#0d1a44"
+  },
+  {
+    "text": "Data-Analysis",
+    "color": "#475b9a"
+  },
+  {
+    "text": "Data-Visualization",
+    "color": "#94BAC7"
+  },
+  {
+    "text": "APIs",
+    "color": "#6d7489"
+  },
+  {
+    "text": "SQL",
+    "color": "#4d68bc"
+  },
+  {
+    "text": "Oracle-MySQL",
+    "color": "#4d68bc"
+  },
+  {
+    "text": "Excel",
+    "color": "#81ab82"
+  },
+  {
+    "text": "Shell",
+    "color": "#4A5568"
+  },
+  {
+    "text": "NumPy",
+    "color": "#fbc742"
+  },
+  {
+    "text": "Linear-Regression",
+    "color": "#000000"
+  },
+  {
+    "text": "Software-Design",
+    "color": "#3e559e"
+  },
+  {
+    "text": "Web-Scraping",
+    "color": "#005AFF"
+  }
 ]

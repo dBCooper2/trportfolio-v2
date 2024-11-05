@@ -1,0 +1,10 @@
+[
+  {
+    "title": "Linear Regression in Python, from Scratch",
+    "date": "4-17-24",
+    "description": "Creating Linear Regression Models from Scratch in Python with Numpy and Pandas",
+    "tags": ["Python", "NumPy", "Pandas", "Data-Analysis", "Linear-Regression"],
+    "slug": "regression-models",
+    "filename": "regression-models.md"
+  }
+]

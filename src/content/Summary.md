@@ -1,7 +1,5 @@
-# John Smith
+# Trevor Rowland
 
-## _Field You Work In / Want To Work In_
+## Data Analytics, Business Intelligence
 
-Finding new insights at XYZ Inc.
-
-PhD in Education at ABC University.
+Studying the Intersection of Business, Programming and Mathematics @ [TTU](https://www.tntech.edu/majors/business-management_business-intelligence-analytics.php)

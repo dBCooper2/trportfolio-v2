@@ -1,23 +1,66 @@
-{
-    "1" : {
-        "title": "Project 1",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget faucibus lectus. Maecenas laoreet diam sit amet metus feugiat, eget posuere nisl dictum.",
-        "skills": ["Skill-1", "Skill-2", "Skill-3"],
-        "code": "https://github.com/dBCooper2/",
-        "demo": "https://trevor-rowland.vercel.app"
-    },
-    "2" : {
-        "title": "Project 2",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget faucibus lectus. Maecenas laoreet diam sit amet metus feugiat, eget posuere nisl dictum.",
-        "skills": ["Skill-1", "Skill-4"],
-        "code": "https://github.com/dBCooper2/",
-        "demo": ""
-    },
-    "3" : {
-        "title": "Project 3",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget faucibus lectus. Maecenas laoreet diam sit amet metus feugiat, eget posuere nisl dictum.",
-        "skills": ["Skill-1", "Skill-2", "Skill-3", "Skill-4"],
-        "code": "https://github.com/dBCooper2/",
-        "demo": "https://dbcooper.vercel.app"
-    }
-}
+[
+  {
+    "title": "Pythonic Finance",
+    "description": "Financial Analysis in Python: Custom OOP Regression Models for CAPM/Fama-French Analysis, Time-Series Analysis, and Textbook Notes on Financial Engineering",
+    "skills": [
+      "Python",
+      "Jupyter-Notebooks",
+      "CAPM",
+      "Fama-French",
+      "Data-Analysis",
+      "Data-Visualization",
+      "Pandas",
+      "NumPy",
+      "APIs",
+      "Linear-Regression"
+    ],
+    "code": "https://github.com/dBCooper2/pythonic-finance",
+    "demo": ""
+  },
+  {
+    "title": "Portfolio Viewing Script",
+    "description": "Displaying a User's Portfolio Performance in the CLI, using Python to clean account JSONs from the tda-api wrapper",
+    "skills": ["Python", "Shell", "APIs", "Data-Analysis"],
+    "code": "https://github.com/dBCooper2/portfolio_viewing_script",
+    "demo": ""
+  },
+  {
+    "title": "dBI",
+    "description": "DEPRECATED - OOP Business Intelligence Tools in Python (CAPM Regression, Candle Charts, API Calls to TD Ameritrade API)",
+    "skills": [
+      "Python",
+      "SQL",
+      "CAPM",
+      "Fama-French",
+      "Data-Analysis",
+      "Data-Visualization",
+      "Pandas",
+      "NumPy",
+      "APIs",
+      "Linear-Regression"
+    ],
+    "code": "https://github.com/dBCooper2/dBI",
+    "demo": ""
+  },
+  {
+    "title": "dBCooper.io",
+    "description": "Portfolio Website built with NextJS and deployed using Vercel, forked from Dr. Kosta's VSCode Portfolio",
+    "skills": ["Software-Design", "JavaScript"],
+    "code": "https://github.com/dBCooper2/dBCooper.io",
+    "demo": "https://dbcooper.vercel.app"
+  },
+  {
+    "title": "ACME Inc. SQL Database",
+    "description": "Designing a MySQL Database in Oracle MySQL from a list of Business Rules. Final Project for Database Management - DS 3860",
+    "skills": ["SQL", "Oracle-MySQL"],
+    "code": "https://github.com/dBCooper2/ACME_INC_SQL",
+    "demo": ""
+  },
+  {
+    "title": "UCEMC Request For Proposals",
+    "description": "Writing Sample, RFP for Helpdesk Solution for Upper Cumberland Electric Members Corporation. Final Project for Management Information Systems - DS 3841",
+    "skills": ["Technical-Writing"],
+    "code": "https://github.com/dBCooper2/UCEMC-RFP-and-SWOT-Analysis",
+    "demo": ""
+  }
+]
