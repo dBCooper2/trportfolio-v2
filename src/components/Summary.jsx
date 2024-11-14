@@ -1,11 +1,11 @@
-import Image from 'next/image';
-import 'tailwindcss/tailwind.css';
+import Image from "next/image";
+import "tailwindcss/tailwind.css";
 
-import MarkdownContent from '@/components/MarkdownContent';
-import { fetchMarkdownContent } from '@/utils/markdown';
+import MarkdownContent from "@/components/MarkdownContent";
+import { fetchMarkdownContent } from "@/utils/markdown";
 
 export default async function Summary() {
-  const summaryContent = await fetchMarkdownContent('src/content/Summary.md');
+  const summaryContent = await fetchMarkdownContent("src/content/Summary.md");
 
   return (
     <div>
@@ -56,6 +56,13 @@ export default async function Summary() {
           className="text-cLink hover:text-cLinkVisited hover:underline"
         >
           Contact
+        </a>
+        <a
+          href="/articles"
+          rel="noopener noreferrer"
+          className="text-cLink hover:text-cLinkVisited hover:underline"
+        >
+          Articles
         </a>
       </div>
     </div>

@@ -1,19 +1,26 @@
-import Projects from "../components/Projects";
+import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
-import MarkdownContent from '@/components/MarkdownContent';
+import Articles from "@/components/Articles";
+import MarkdownContent from "@/components/MarkdownContent";
 
-import { fetchMarkdownContent } from '@/utils/markdown';
+import { fetchMarkdownContent } from "@/utils/markdown";
 
-import 'tailwindcss/tailwind.css';
-import Head from "./head"
+import "tailwindcss/tailwind.css";
+import Head from "./head";
 
 export default async function HomePage() {
-  const abstractContent = await fetchMarkdownContent('src/content/Abstract.md');
-  const educationContent = await fetchMarkdownContent('src/content/Education.md');
-  const experienceContent = await fetchMarkdownContent('src/content/Experience.md');
-  const certificateContent = await fetchMarkdownContent('src/content/Certificates.md');
+  const abstractContent = await fetchMarkdownContent("src/content/Abstract.md");
+  const educationContent = await fetchMarkdownContent(
+    "src/content/Education.md",
+  );
+  const experienceContent = await fetchMarkdownContent(
+    "src/content/Experience.md",
+  );
+  const certificateContent = await fetchMarkdownContent(
+    "src/content/Certificates.md",
+  );
   // const researchContent = await fetchMarkdownContent('src/content/Research.md');
-  const footerContent = await fetchMarkdownContent('src/content/Footer.md');
+  const footerContent = await fetchMarkdownContent("src/content/Footer.md");
 
   // Tailwind Breakpoints: none/sm: Phones, md: Tablets, lg: Desktop, xl: Widescreen Desktop
 
@@ -29,11 +36,14 @@ export default async function HomePage() {
         <div id="Skills">
           <Skills />
         </div>
+        <div id="Projects">
+          <Projects />
+        </div>
         <div id="Education">
           <MarkdownContent content={educationContent} />
         </div>
-        <div id="Projects">
-          <Projects />
+        <div id="Articles">
+          <Articles />
         </div>
         <div id="Experience">
           <MarkdownContent content={experienceContent} />

@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import tagData from '@/content/tags.json';
-import { useRouter } from 'next/navigation';
+import { useState } from "react";
+import tagData from "@/content/tags.json";
+import { useRouter } from "next/navigation";
 
 const TagFilter = ({ initialTag }) => {
   const [selectedTag, setSelectedTag] = useState(initialTag);
@@ -12,7 +12,7 @@ const TagFilter = ({ initialTag }) => {
   const handleTagFilter = (newTag) => {
     setSelectedTag(newTag);
     setIsDropdownOpen(false);
-    router.push(`/${newTag}`);
+    router.push(`${initialTag}/${newTag}`);
   };
 
   const handleDropdownToggle = () => {
@@ -28,7 +28,7 @@ const TagFilter = ({ initialTag }) => {
         Filter
         <svg
           className={`ml-2 transition-transform duration-300 ${
-            isDropdownOpen ? 'rotate-180' : ''
+            isDropdownOpen ? "rotate-180" : ""
           }`}
           width="24"
           height="24"
@@ -36,10 +36,7 @@ const TagFilter = ({ initialTag }) => {
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <path
-            d="M12 15L7 10L17 10L12 15Z"
-            fill="currentColor"
-          />
+          <path d="M12 15L7 10L17 10L12 15Z" fill="currentColor" />
         </svg>
       </button>
       {isDropdownOpen && (
@@ -48,7 +45,7 @@ const TagFilter = ({ initialTag }) => {
             <button
               key={index}
               className={`block w-full text-cBody text-left px-4 py-2 hover:bg-cBody hover:text-cBlock hover:underline hover:font-bold ${
-                selectedTag === tag.text ? 'font-bold' : ''
+                selectedTag === tag.text ? "font-bold" : ""
               }`}
               onClick={() => handleTagFilter(tag.text)}
             >
