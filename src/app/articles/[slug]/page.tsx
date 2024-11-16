@@ -10,13 +10,19 @@ export default async function ArticlePage({
   params: { slug: string };
 }) {
   return (
-    <div className="bg-cBg">
-      <div className="w-full">
+    <div className="min-h-screen bg-cBg font-oldStandardTT">
+      {/* Header section with full width */}
+      <header className="w-full">
         <BlogHeader />
-      </div>
-      <div className="flex">
-        <BlogSidebar articles={articles} currentSlug={params.slug} />
-        <main className="flex-1">
+      </header>
+      {/* Main content area */}
+      <div className="flex flex-col md:flex-row">
+        {/* Sidebar */}
+        <aside className="hidden md:block md:w-1/5 lg:w-1/6 bg-cBg p-4">
+          <BlogSidebar articles={articles} currentSlug={params.slug} />
+        </aside>
+        {/* Main content */}
+        <main className="flex-1 p-4 w-full max-w-7xl mx-auto">
           <ArticleContent params={params} />
         </main>
       </div>

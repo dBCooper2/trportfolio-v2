@@ -77,7 +77,7 @@ export default function BlogSidebar({
             <div key={year} className="mb-4">
               <button
                 onClick={() => toggleYear(year)}
-                className="flex items-center w-full text-left markdown-h3 hover:text-cLink transition-colors"
+                className="bg-cBg border-none drop-shadow-none flex items-center w-full text-left markdown-h3 hover:text-cLink transition-colors"
               >
                 {expandedYears[year] ? (
                   <ChevronDown className="w-4 h-4 mr-1" />
@@ -113,7 +113,7 @@ export default function BlogSidebar({
                       <div key={`${year}-${month}`} className="ml-2 mb-2">
                         <button
                           onClick={() => toggleMonth(`${year}-${month}`)}
-                          className="flex items-center w-full text-left markdown-h4 hover:text-cLink transition-colors"
+                          className="bg-cBg border-none drop-shadow-none flex items-center w-full text-left markdown-h4 hover:text-cLink transition-colors"
                         >
                           {expandedMonths[`${year}-${month}`] ? (
                             <ChevronDown className="w-3 h-3 mr-1" />
@@ -124,7 +124,7 @@ export default function BlogSidebar({
                         </button>
 
                         {expandedMonths[`${year}-${month}`] && (
-                          <ul className="ml-4 space-y-2 mt-1">
+                          <ul className="bg-cBg ml-4 space-y-2 mt-1">
                             {monthArticles.map((article) => (
                               <li key={article.slug}>
                                 <Link

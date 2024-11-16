@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap')
-
-@tailwind base;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap")
+    @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -42,27 +41,27 @@ body {
     }
 
     .markdown-h1 {
-      @apply text-4xl font-bold text-cH1 mb-4;
+        @apply text-4xl font-bold text-cH1 mb-4;
     }
-      
+
     .markdown-h2 {
-      @apply text-3xl font-bold text-cH2 mb-3;
+        @apply text-3xl font-bold text-cH2 mb-3;
     }
-      
+
     .markdown-h3 {
-      @apply text-2xl font-bold text-cH3 mb-2;
+        @apply text-2xl font-bold text-cH3 mb-2;
     }
-      
+
     .markdown-h4 {
-      @apply text-xl font-bold text-cH4 mb-1;
+        @apply text-xl font-bold text-cH4 mb-1;
     }
-      
+
     .markdown-h5 {
-      @apply text-lg font-bold text-cH5 mb-1;
+        @apply text-lg font-bold text-cH5 mb-1;
     }
-      
+
     .markdown-h6 {
-      @apply text-base font-bold text-cH6 mb-1;
+        @apply text-base font-bold text-cH6 mb-1;
     }
 
     .markdown-link {
@@ -70,10 +69,27 @@ body {
     }
 
     .markdown-hr {
-      @apply text-cLineBreak;
+        @apply text-cLineBreak;
     }
 
     .markdown-paragraph {
         @apply text-cBody text-lg mb-4;
+    }
+
+    .anchor-link {
+        @apply text-4xl font-bold text-cH1 no-underline;
+        display: inline-flex;
+        gap: 0.5rem;
+        background: none;
+        outline: none; /* Resets outline */
+        border: none; /* Resets border */
+        box-shadow: none; /* Resets any shadow that might resemble an outline */
+    }
+
+    .anchor-link:focus,
+    .anchor-link:hover {
+        outline: none; /* Resets focus outline */
+        border: none; /* Resets focus border */
+        box-shadow: none; /* Resets hover or focus shadow */
     }
 }
